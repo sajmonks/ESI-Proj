@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ESIProj"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Projekty/ESIProj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ESIProj">
+				<Option output="D:/Projekty/ESIProj/cmake-build-debug/ESIProj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MSYS2/mingw64/include/gtkmm-3.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/gtkmm-3.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/atkmm-1.6"/>
+					<Add directory="D:/MSYS2/mingw64/include/gdkmm-3.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/gdkmm-3.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/giomm-2.4"/>
+					<Add directory="D:/MSYS2/mingw64/lib/giomm-2.4/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/pangomm-1.4"/>
+					<Add directory="D:/MSYS2/mingw64/lib/pangomm-1.4/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/glibmm-2.4"/>
+					<Add directory="D:/MSYS2/mingw64/lib/glibmm-2.4/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/gtk-3.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/cairo"/>
+					<Add directory="D:/MSYS2/mingw64/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/pango-1.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/fribidi"/>
+					<Add directory="D:/MSYS2/mingw64/include/atk-1.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/cairomm-1.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/cairomm-1.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/pixman-1"/>
+					<Add directory="D:/MSYS2/mingw64/include/freetype2"/>
+					<Add directory="D:/MSYS2/mingw64/include/harfbuzz"/>
+					<Add directory="D:/MSYS2/mingw64/include/libpng16"/>
+					<Add directory="D:/MSYS2/mingw64/include/sigc++-2.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/sigc++-2.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/gdk-pixbuf-2.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/glib-2.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/glib-2.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include/c++/7.3.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 ESIProj"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ESIProj/fast">
+				<Option output="D:/Projekty/ESIProj/cmake-build-debug/ESIProj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MSYS2/mingw64/include/gtkmm-3.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/gtkmm-3.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/atkmm-1.6"/>
+					<Add directory="D:/MSYS2/mingw64/include/gdkmm-3.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/gdkmm-3.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/giomm-2.4"/>
+					<Add directory="D:/MSYS2/mingw64/lib/giomm-2.4/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/pangomm-1.4"/>
+					<Add directory="D:/MSYS2/mingw64/lib/pangomm-1.4/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/glibmm-2.4"/>
+					<Add directory="D:/MSYS2/mingw64/lib/glibmm-2.4/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/gtk-3.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/cairo"/>
+					<Add directory="D:/MSYS2/mingw64/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/pango-1.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/fribidi"/>
+					<Add directory="D:/MSYS2/mingw64/include/atk-1.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/cairomm-1.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/cairomm-1.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/pixman-1"/>
+					<Add directory="D:/MSYS2/mingw64/include/freetype2"/>
+					<Add directory="D:/MSYS2/mingw64/include/harfbuzz"/>
+					<Add directory="D:/MSYS2/mingw64/include/libpng16"/>
+					<Add directory="D:/MSYS2/mingw64/include/sigc++-2.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/sigc++-2.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/include/gdk-pixbuf-2.0"/>
+					<Add directory="D:/MSYS2/mingw64/include/glib-2.0"/>
+					<Add directory="D:/MSYS2/mingw64/lib/glib-2.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include/c++/7.3.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 ESIProj/fast"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Projekty/ESIProj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Projekty/ESIProj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;D:/Projekty/ESIProj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Projekty/ESIProj/Gtk/DirBox.cpp">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Gtk/DirBox.h">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Gtk/DirWindow.cpp">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Gtk/DirWindow.h">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Utils/DirectoryEntry.cpp">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Utils/DirectoryEntry.h">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Utils/DirectoryManager.cpp">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/Utils/DirectoryManager.h">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/main.cpp">
+			<Option target="ESIProj"/>
+		</Unit>
+		<Unit filename="D:/Projekty/ESIProj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
